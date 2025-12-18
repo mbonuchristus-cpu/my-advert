@@ -44,28 +44,26 @@
 
   <!-- RIGHT: FORM -->
   <section class="contact-form-wrap">
-    <form class="contact-form">
+    
 
-      <div class="field">
-        <label>Your Name</label>
-        <input type="text" required>
-      </div>
+      <form class="contact-form" action="https://formspree.io/f/xkownjpb" method="POST">
+  <div class="field">
+    <label>Your Name</label>
+    <input type="text" name="name" required>
+  </div>
 
-      <div class="field">
-        <label>Email</label>
-        <input type="email" required>
-      </div>
+  <div class="field">
+    <label>Email</label>
+    <input type="email" name="email" required>
+  </div>
 
-      <div class="field">
-        <label>Project Overview</label>
-        <textarea rows="5" required></textarea>
-      </div>
+  <div class="field">
+    <label>Project Overview</label>
+    <textarea name="message" rows="5" required></textarea>
+  </div>
 
-      <button type="submit">
-        Submit Inquiry →
-      </button>
-
-    </form>
+  <button type="submit">Submit Inquiry →</button>
+</form>
   </section>
 
 </main>
